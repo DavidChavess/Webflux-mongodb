@@ -9,6 +9,11 @@ public class Playlist {
 	private String id;
 	private String nome;
 	
+	public Playlist(String id, String nome) {
+		super();
+		this.id = id;
+		this.nome = nome;
+	}
 	public String getId() {
 		return id;
 	}
